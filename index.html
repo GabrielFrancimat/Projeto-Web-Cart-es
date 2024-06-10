@@ -7,29 +7,26 @@
     <title>Projeto: HTML</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0
-        ,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./src/css/reset.css">
-
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
 </head>
 
 <body>
     <header class="cabecalho">
-        <h1>X-Players</h1>
+        <img class="imagem-cabecalho" src="./src/css/imagens/Super-Smash-Bros.png" alt="Super Smash Bros">
     </header>
     <main class="personagens-slider">
-        <button class="btn-seta bnt-voltar" id="btn-voltar">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
             <img src="./src/css/imagens/seta.png" alt="Seta para voltar a imagem">
-        </button>        
+        </button>
 
         <ul class="lista-personagens">
             <li class="cartao selecionado fundo-1">
                 <h2 class="nome">Mario (encanador)</h2>
-
                 <img class="imagem-personagem" src="./src/css/imagens/Super-Mario.png" alt="Mario (encanador)">
-
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
                     <p class="texto">
@@ -39,13 +36,12 @@
                         camiseta vermelha. Ele é um personagem versátil, estrelando em uma variedade de gêneros de
                         jogos. Ele pode saltar e esmagar inimigos,bem como usar power-ups como o Super Cogumelo, Flor de
                         Fogo e Tanuki, por exemplo.
-                        </div>
+                    </p>
+                </div>
             </li>
             <li class="cartao fundo-2">
                 <h2 class="nome">Sonic, O ouriço</h2>
-
                 <img class="imagem-personagem" src="./src/css/imagens/Sonic.png" alt="Sonic O ouriço">
-
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
                     <p class="texto">
@@ -54,14 +50,13 @@
                         como Tails, Knuckles e Amy Rose. Ele é conhecido por sua atitude confiante e destemida, além de
                         seu desejo incessante por liberdade e aventura e além disso possui uma forma poderosa que o
                         deixo todo dourado quando usa as esmeraldas do caos.
+                    </p>
                 </div>
             </li>
 
             <li class="cartao fundo-3">
                 <h2 class="nome">Pac-Man</h2>
-
-                <img class="imagem-personagem" src="./src/css/imagens/Pac Man.png" alt="Pac-Man">
-
+                <img class="imagem-personagem" src="./src/css/imagens/Pac-man.png" alt="Pac-Man">
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
                     <p class="texto">
@@ -70,28 +65,26 @@
                         comendo pontos e frutas enquanto tenta evitar fantasmas inimigos: Blinky, Pinky, Inky e Clyde.
                         O objetivo do jogo é comer todos os pontos no labirinto enquanto se esquiva dos fantasmas, que
                         se tornam vulneráveis quando Pac-Man consome itens especiais chamados "Power Pellets".
+                    </p>
                 </div>
             </li>
 
             <li class="cartao fundo-4">
                 <h2 class="nome">Crash Bandicoot</h2>
-
                 <img class="imagem-personagem" src="./src/css/imagens/Crash_Bandicoot.png" alt="Crash Bandicoot">
-
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
                     <p class="texto">
                         Crash é um bandicoot antropomórfico, um tipo de marsupial, que vive em uma ilha fictícia no
                         arquipélago das Ilhas Wumpa, ao sul da Austrália. Ele é conhecido por seu comportamento animado
                         e suas aventuras para derrotar o malvado Dr. Neo Cortex, o cientista que o criou.
+                    </p>
                 </div>
             </li>
 
             <li class="cartao fundo-5">
                 <h2 class="nome">Ryu</h2>
-
                 <img class="imagem-personagem" src="./src/css/imagens/Ryu.png" alt="Ryu">
-
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
                     <p class="texto">
@@ -102,15 +95,17 @@
                         desde então se tornou um dos ícones mais reconhecidos da franquia e dos jogos de luta em geral.
                         Ryu é um artista marcial japonês, conhecido por seu uniforme de karatê branco, faixa vermelha na
                         cabeça e luvas vermelhas.
+                    </p>
                 </div>
             </li>
-
         </ul>
 
-        <button class="btn-seta btn avancar" id="btn-avancar">
+        <button class="btn-seta btn-avancar" id="btn-avancar">
             <img src="./src/css/imagens/seta.png" alt="Seta para avançar a imagem">
         </button>
     </main>
+
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
